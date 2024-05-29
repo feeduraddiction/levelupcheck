@@ -8,10 +8,6 @@ const experienceByRound = 250;
 const expProgress = document.getElementById("expProgress");
 const summ = (starting * (Math.pow(q, n) - 1)) / (q - 1);
 
-document.querySelector("#expPerRound").innerHTML = experienceByRound;
-document.querySelector("#denominator").innerHTML = q;
-document.querySelector("#startingValue").innerHTML = starting;
-
 for (let i = 1; i < 100; i++) {
   const totalExpAtCurrentLvl = starting * Math.pow(q, i);
   if (i !== 0) {

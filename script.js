@@ -7,7 +7,6 @@ let roundsCount = 0;
 const experienceByRound = 250;
 const expProgress = document.getElementById("expProgress");
 const summ = (starting * (Math.pow(q, n) - 1)) / (q - 1);
-console.log(summ);
 
 document.querySelector("#expPerRound").innerHTML = experienceByRound;
 document.querySelector("#denominator").innerHTML = q;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Simulation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        Current lvl:
+        <div id="lvl"></div>
+      </div>
+      <div class="item">
+        Current exp:
+        <div id="exp"></div>
+      </div>
+      <div class="item">
+        Expt to next Lvl:
+        <div id="expToNext"></div>
+      </div>
+      <div class="progress">
+        <div id="expProgress" class="progress-bar"></div>
+    </div>
+      <div id="percent"></div>
+      <div class="item">
+        Rounds played:
+        <div id="played"></div>
+      </div>
+      <button onclick="playRound()">Провести раунд</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
